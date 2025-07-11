@@ -15,6 +15,7 @@
 background-color: #4E47FF;
     color: white;
     padding: 12px 36px;
+    border: none;
     border-radius: 10px;
     outline: none;
     cursor: pointer;
@@ -63,4 +64,44 @@ nav{
     
 }
 
+/* action */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
 
+.left-side {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.left-side h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.left-side p {
+  font-size: 18px;
+  color:gray;
+  margin-bottom: 25px;
+}
+
+.left-side button {
+  padding: 12px 24px;
+  border: none;
+  font-size: 16px;
+  
+}
+
+.right-side {
+  flex: 1;
+  text-align: center;
+}
+
+.right-side img {
+  max-width: 100%;
+  border-radius: 20px;
+}
