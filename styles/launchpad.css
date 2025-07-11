@@ -105,3 +105,43 @@ nav{
   max-width: 100%;
   border-radius: 20px;
 }
+
+/* Productive Users Section  */
+
+.productive {
+  background-color: #e5e7ff;
+  padding: 50px 20px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.product-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  min-width: 150px;
+}
+
+.product-value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #4f46e5;
+  margin-bottom: 8px;
+}
+
+.product-label {
+  font-size: 14px;
+  color:gray;
+}
+
