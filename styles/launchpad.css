@@ -20,6 +20,10 @@ background-color: #4E47FF;
     outline: none;
     cursor: pointer;
 }
+button:hover {
+  background-color: #d2d279;
+  color: black;
+}
 
 body{
     background-color: #f5f8ff;
